@@ -75,7 +75,7 @@ orders(app);
 products(app, upload);
 mercadoPagoRoutes(app);
 
-server.listen(8080, '157.245.91.4' || 'localhost', function() {
+server.listen(3000, '157.245.91.4' || 'localhost', function() {
     console.log('Aplicacion de NodeJS ' + port + ' Iniciada...')
 });
 
