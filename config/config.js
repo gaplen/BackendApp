@@ -11,11 +11,11 @@ types.setTypeParser(1114, function(stringValue) {
 });
 
 const databaseConfig = {
-    'host': '127.0.0.1',
+    'host':  '34.68.61.53',//'127.0.0.1',
     'port': 5432,
-    'database': 'app_bd',
+    'database': 'postgres',
     'user': 'postgres',
-    'password': '123456'
+    'password': 'postgres'
 };
 
 const db = pgp(databaseConfig);
